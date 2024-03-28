@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
 
-export default nextConfig;
+import { withNextVideo } from 'next-video/process';
+
+const nextConfig = {
+    experimental: {
+        optimizePackageImports: ['react-bootstrap'],
+    }
+}; // Your current Next Config object
+
+export default withNextVideo(nextConfig);
