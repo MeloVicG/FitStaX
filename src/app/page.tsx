@@ -5,23 +5,24 @@ import Link from "next/link";
 import styles from "./page.module.scss";
 import Head from 'next/head';
 // import Link from 'next/link';
-import Video from 'next-video';
 import { Button, Form } from "react-bootstrap";
 
-import MainLogo from '../../public/images/FitStaX_Main.webp'
-import introVid from '../../videos/intro_video2.mp4'
+import MainLogo from '../../public/FitStaX_Main.webp'
+// import Video from 'next-video';
+// import introVid from '../../videos/intro_video2.mp4'
 import Image from 'next/image';
 
-import learnWorkout from '../../public/images/learnworkout.jpg'
-import workout1 from '../../public/images/workout1.jpg'
-import workout2 from '../../public/images/workout3.webp'
-import poseWorkout from '../../public/images/poseworkout.jpg'
-import groupworkout1 from '../../public/images/groupworkout1.jpg'
-import workout5 from '../../public/images/workout5.webp'
-import ropesworkout from '../../public/images/ropesworkout.jpg'
-import group3 from '../../public/images/group3.jpg'
+import learnWorkout from '../../public/learnworkout.jpg'
+import workout1 from '../../public/workout1.jpg'
+import workout2 from '../../public/workout3.webp'
+import poseWorkout from '../../public/poseworkout.jpg'
+import groupworkout1 from '../../public/groupworkout1.jpg'
+import workout5 from '../../public/workout5.webp'
+import ropesworkout from '../../public/ropesworkout.jpg'
+import group3 from '../../public/group3.jpg'
+import femaleWorkout from '../../public/femaleworkout.jpg'
 
-import powderOne from '../../public/images/powderOne.webp'
+import powderOne from '../../public/powderOne.webp'
 
 export default function Home() {
   return (
@@ -53,14 +54,17 @@ export default function Home() {
           </Button>
         </div>
 
-        <Video src={introVid}
+        {/* <Video src={introVid}
           // autoPlay
           // muted
           loop
           controls
           playsInline
           accentColor="rgb(0, 225, 255)"
-        />
+        /> */}
+        <Image className={styles.mainImage} src={femaleWorkout} alt="" />
+
+
       </header>
 
       <main className={styles.main}>
