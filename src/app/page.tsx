@@ -6,22 +6,22 @@ import styles from "./page.module.scss";
 import Head from 'next/head';
 // import Link from 'next/link';
 import Video from 'next-video';
-import introVid from '../../videos/intro_video2.mp4'
 import { Button, Form } from "react-bootstrap";
 
-import MainLogo from '../../public/images/military/FitStaX_Main.webp'
+import MainLogo from '../../public/images/FitStaX_Main.webp'
+import introVid from '../../videos/intro_video2.mp4'
 import Image from 'next/image';
 
-import learnWorkout from '../../public/images/military/learnworkout.jpg'
-import workout1 from '../../public/images/military/workout1.jpg'
-import workout2 from '../../public/images/military/workout3.webp'
-import poseWorkout from '../../public/images/military/poseworkout.jpg'
-import groupworkout1 from '../../public/images/military/groupworkout1.jpg'
-import workout5 from '../../public/images/military/workout5.webp'
-import ropesworkout from '../../public/images/military/ropesworkout.jpg'
-import group3 from '../../public/images/military/group3.jpg'
+import learnWorkout from '../../public/images/learnworkout.jpg'
+import workout1 from '../../public/images/workout1.jpg'
+import workout2 from '../../public/images/workout3.webp'
+import poseWorkout from '../../public/images/poseworkout.jpg'
+import groupworkout1 from '../../public/images/groupworkout1.jpg'
+import workout5 from '../../public/images/workout5.webp'
+import ropesworkout from '../../public/images/ropesworkout.jpg'
+import group3 from '../../public/images/group3.jpg'
 
-import powderOne from '../../public/images/products/powderOne.webp'
+import powderOne from '../../public/images/powderOne.webp'
 
 export default function Home() {
   return (
